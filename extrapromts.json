@@ -1,0 +1,463 @@
+{
+    "prompt": "Create a JSON object with an \"objects\" array containing one object. The \"id\" of the object should be \"A\" with \"text\" set to a true or false question and \"answer\" should be either true or false (around 10 words) for 16 slides, randomly alternating between true and false.",
+    "text_data": "Google, a multinational technology company, is synonymous with the internet era, revolutionizing how we access and interact with information. Founded in 1998 by Larry Page and Sergey Brin, Google's search engine quickly became the go-to tool for navigating the vast web. Over the years, Google expanded its services to include email (Gmail), maps (Google Maps), productivity tools (Google Docs, Sheets, Slides), and a mobile operating system (Android). Beyond its products, Google's influence extends to artificial intelligence research (Google Brain) and moonshot projects (Google X), aiming to tackle global challenges. With its motto "Don't be evil" (now "Do the right thing"), Google continues to shape our digital world and redefine possibilities."
+}
+
+{
+  "objects": [
+    {
+      "id": "A",
+      "text": "Is Google a multinational technology company?",
+      "answer": true
+    },
+    {
+      "id": "B",
+      "text": "Was Google founded in 1998 by Larry Page and Sergey Brin?",
+      "answer": false
+    },
+    {
+      "id": "C",
+      "text": "Does Google provide email services under the name Gmail?",
+      "answer": true
+    },
+    {
+      "id": "D",
+      "text": "Is Android a mobile operating system developed by Google?",
+      "answer": true
+    },
+    {
+      "id": "E",
+      "text": "Is Google known for its moonshot projects?",
+      "answer": true
+    },
+    {
+      "id": "F",
+      "text": "Does Google's motto encourage doing evil?",
+      "answer": false
+    },
+    {
+      "id": "G",
+      "text": "Does Google offer productivity tools like Google Docs?",
+      "answer": true
+    },
+    {
+      "id": "H",
+      "text": "Is Google involved in artificial intelligence research?",
+      "answer": true
+    },
+    {
+      "id": "I",
+      "text": "Is Google synonymous with the internet era?",
+      "answer": true
+    },
+    {
+      "id": "J",
+      "text": "Does Google revolutionize how we access information?",
+      "answer": true
+    },
+    {
+      "id": "K",
+      "text": "Has Google's search engine become a go-to tool for navigating the web?",
+      "answer": true
+    },
+    {
+      "id": "L",
+      "text": "Does Google aim to tackle global challenges with its projects?",
+      "answer": true
+    },
+    {
+      "id": "M",
+      "text": "Does Google provide mapping services under the name Google Maps?",
+      "answer": true
+    },
+    {
+      "id": "N",
+      "text": "Is Google known for its influence beyond its products?",
+      "answer": true
+    },
+    {
+      "id": "O",
+      "text": "Does Google continue to shape our digital world?",
+      "answer": true
+    },
+    {
+      "id": "P",
+      "text": "Is Google redefining possibilities?",
+      "answer": true
+    }
+  ]
+}
+
+{
+    "prompt": "Create a JSON object with an \"objects\" array containing one object. The \"id\" of the object should be \"text-1\" with \"text\" set to a yes or no question and \"answer\" should be either yes or no (around 10 words) for 5 slides, randomly alternating between true and false.",
+    "text_data": "Science is the systematic study of the natural world through observation and experimentation. It seeks to understand how the universe works, from the smallest particles to the largest galaxies. Science has led to numerous discoveries and advancements, improving our understanding of the world and driving technological innovation. It plays a crucial role in solving complex problems, shaping our future, and expanding our knowledge of the cosmos."
+}
+
+
+{
+  "objects": [
+    {
+      "id": "text-1",
+      "text": "Is science the systematic study of the natural world?",
+      "answer": "Yes"
+    },
+    {
+      "id": "text-2",
+      "text": "Does science seek to understand how the universe works?",
+      "answer": "Yes"
+    },
+    {
+      "id": "text-3",
+      "text": "Has science led to numerous discoveries and advancements?",
+      "answer": "Yes"
+    },
+    {
+      "id": "text-4",
+      "text": "Does science play a crucial role in solving complex problems?",
+      "answer": "Yes"
+    },
+    {
+      "id": "text-5",
+      "text": "Is science expanding our knowledge of the cosmos?",
+      "answer": "Yes"
+    }
+  ]
+}
+
+
+{
+"prompt": "Create a JSON object with an "objects" array containing at 6 objects. Assign "id" to each object in the format "text-[object number]". For the 1st object, set the "text" to "QUESTION 2".  For the 2nd object, set "text" to contain a question (around 10 words) for a quiz related to topic given. For the 3rd,4th,5th a will contain options for the question prefixed with "letter from A. to C.". The topic should be quiz",
+"text_data": "A quiz is a fun and interactive way to test knowledge on a specific topic or range of subjects. It typically consists of a series of questions, with participants providing answers to demonstrate their understanding. Quizzes can be used for educational purposes, such as in classrooms to reinforce learning, or for entertainment at events or gatherings. They can range from simple multiple-choice questions to more complex puzzles and riddles. Quizzes often challenge participants to think critically and recall information, making them both enjoyable and beneficial for learning."
+}
+
+{
+  "objects": [
+    {
+      "id": "text-1",
+      "text": "QUESTION 2"
+    },
+    {
+      "id": "text-2",
+      "text": "What is the capital of France?"
+    },
+    {
+      "id": "text-3",
+      "text": "A. Rome"
+    },
+    {
+      "id": "text-4",
+      "text": "B. Paris"
+    },
+    {
+      "id": "text-5",
+      "text": "C. Madrid"
+    }
+  ]
+}
+
+
+{
+"prompt": "Create a JSON object with an "objects" array containing at 6 objects. Assign "id" to each object in the format "text-[object number]". For the 1st object, set the "text" to "QUESTION ".  For the 2nd object, set "text" to contain a question (around 10 words) for a quiz related to topic given. For the 3rd,4th,5th a will contain options for the question prefixed with "letter from A. to C.". The topic should be games",
+"text_data": "Games are a form of recreational activity that can be enjoyed by individuals of all ages. They often involve one or more players engaging in a structured competition or challenge, following a set of rules or objectives. Games can be played for entertainment, social interaction, skill development, or relaxation. They come in various forms, including board games, video games, card games, and sports. Games are not only a source of fun and enjoyment but also provide cognitive and social benefits, such as improving problem-solving skills, enhancing memory and concentration, and promoting teamwork and communication."
+}
+
+{
+  "objects": [
+    {
+      "id": "text-1",
+      "text": "QUESTION 1"
+    },
+    {
+      "id": "text-2",
+      "text": "What is the highest-grossing video game of all time?"
+    },
+    {
+      "id": "text-3",
+      "text": "A. Minecraft"
+    },
+    {
+      "id": "text-4",
+      "text": "B. Fortnite"
+    },
+    {
+      "id": "text-5",
+      "text": "C. Grand Theft Auto V"
+    }
+  ]
+}
+
+
+{
+"prompt": "Create a JSON object with an "objects" array containing two objects. The "id" of the first object should be "text-1" with "text" set to "INTRODUCTION." The "id" of the second object should be "text-2" with "text" containing a brief introductory text (around 30 words) for slides on the topic ",
+"text_data": "The internet is a global network of interconnected computers that enables communication, information sharing, and access to resources worldwide. It has revolutionized the way we connect, work, and live, allowing instant communication through email, social media, and messaging platforms. The internet provides vast amounts of information through websites, search engines, and online databases, empowering users with knowledge and resources. It has also facilitated e-commerce, online education, and remote work, transforming various aspects of modern society. Despite its benefits, the internet raises concerns about privacy, security, and misinformation, highlighting the need for responsible use and regulation."
+}
+
+{
+    "objects": [
+        {
+            "id": "text-1",
+            "text": "INTRODUCTION"
+        },
+        {
+            "id": "text-2",
+            "text": "The internet is a global network of interconnected computers that enables communication, information sharing, and access to resources worldwide. It has revolutionized the way we connect, work, and live, allowing instant communication through email, social media, and messaging platforms. The internet provides vast amounts of information through websites, search engines, and online databases, empowering users with knowledge and resources. It has also facilitated e-commerce, online education, and remote work, transforming various aspects of modern society. Despite its benefits, the internet raises concerns about privacy, security, and misinformation, highlighting the need for responsible use and regulation."
+        }
+   ]
+}
+
+{
+"prompt": "Create a JSON object with an "objects" array containing three objects. The "id" of the first object should be "text-1" with "text" set to "Topic"." The "id" of the second object should be "text-2" with "text" containing a brief introductory text (around 30 words) for slides on the topic ". The "id" of the third object should be "text-3" with "text"  containing a  text (around 100 words) for slides on the topic ",
+"text_data": "Summer is a season characterized by warm weather, longer days, and vibrant nature. It is a time for outdoor activities like swimming, hiking, and picnicking. Many people enjoy vacations and travel during this time to explore new places or relax by the beach. Summer is also synonymous with refreshing treats like ice cream and cold drinks. It's a season of relaxation and rejuvenation, offering a break from the routine of daily life."
+}
+
+{
+    "objects": [
+        {
+            "id": "text-1",
+            "text": "Topic"
+        },
+        {
+            "id": "text-2",
+            "text": "Summer is a season characterized by warm weather, longer days, and vibrant nature. It is a time for outdoor activities like swimming, hiking, and picnicking. Many people enjoy vacations and travel during this time to explore new places or relax by the beach. Summer is also synonymous with refreshing treats like ice cream and cold drinks. It's a season of relaxation and rejuvenation, offering a break from the routine of daily life."
+        },
+        {
+            "id": "text-3",
+            "text": "Summer is a season of warmth and leisure, inviting people to enjoy the outdoors and indulge in seasonal delights. Whether it's the joy of a beach day, the thrill of a hike, or the simple pleasure of an ice cream cone, summer brings a sense of freedom and joy. It's a time to create lasting memories and savor the beauty of nature."
+        }
+    ]
+}
+
+
+{
+"prompt": "Create a JSON object with an "objects" array containing five objects. The "id" of the first object should be "text-1" with "text" set to "Topic"." The "id" of the second object should be "text-2" with "text" containing a brief introductory text (around 30 words) for slides on the topic ". The "id" of the third object should be "text-3" with "text"  containing a  text (around 100 words) for slides on the topic ", The "id" of the fourth object should be "text-4" with "text"  containing a  text (around 300 words) for slides on the topic ". The "id" of the fifth object should be "text-5" with "text"  containing a  text (around 300 words) for slides on the topic ",
+"text_data": "Summer is a season characterized by warm weather, longer days, and vibrant nature. It is a time for outdoor activities like swimming, hiking, and picnicking. Many people enjoy vacations and travel during this time to explore new places or relax by the beach. Summer is also synonymous with refreshing treats like ice cream and cold drinks. It's a season of relaxation and rejuvenation, offering a break from the routine of daily life."
+}
+
+{
+    "objects": [
+        {
+            "id": "text-1",
+            "text": "Topic"
+        },
+        {
+            "id": "text-2",
+            "text": "Summer is a season characterized by warm weather, longer days, and vibrant nature. It is a time for outdoor activities like swimming, hiking, and picnicking. Many people enjoy vacations and travel during this time to explore new places or relax by the beach."
+        },
+        {
+            "id": "text-3",
+            "text": "Summer is also synonymous with refreshing treats like ice cream and cold drinks. It's a season of relaxation and rejuvenation, offering a break from the routine of daily life."
+        },
+        {
+            "id": "text-4",
+            "text": "Summer is a season of warmth and leisure, inviting people to enjoy the outdoors and indulge in seasonal delights. Whether it's the joy of a beach day, the thrill of a hike, or the simple pleasure of an ice cream cone, summer brings a sense of freedom and joy. It's a time to create lasting memories and savor the beauty of nature."
+        },
+        {
+            "id": "text-5",
+            "text": "Summer is a season of warmth and leisure, inviting people to enjoy the outdoors and indulge in seasonal delights. Whether it's the joy of a beach day, the thrill of a hike, or the simple pleasure of an ice cream cone, summer brings a sense of freedom and joy. It's a time to create lasting memories and savor the beauty of nature."
+        }
+    ]
+}
+
+
+{
+    "prompt": "Create a JSON object with an \"objects\" array containing multiple objects. Each object should represent a question and contain the following properties: \"id\" (unique identifier for the question), \"text\" (the question text), and \"options\" (an array of possible answers).",
+    "text_data": "AI, or Artificial Intelligence, is the simulation of human intelligence processes by machines, especially computer systems. It encompasses learning, reasoning, problem-solving, perception, and language understanding. AI is revolutionizing various industries, from healthcare to finance, by enabling machines to perform tasks that typically require human intelligence, such as decision-making and problem-solving."
+}
+
+{
+    "objects": [
+        {
+            "id": "q1",
+            "text": "What does AI stand for?",
+            "options": ["Artificial Intelligence", "Automated Interaction", "Advanced Inference"]
+        },
+        {
+            "id": "q2",
+            "text": "Which industries is AI revolutionizing?",
+            "options": ["Healthcare", "Finance", "Both Healthcare and Finance"]
+        },
+        {
+            "id": "q3",
+            "text": "What are some aspects of human intelligence that AI encompasses?",
+            "options": ["Learning", "Reasoning", "Problem-solving", "All of the above"]
+        }
+    ]
+}
+
+
+{
+    "prompt": "Create a JSON object with an \"objects\" array containing seven objects. Each object should represent a question and contain the following properties: \"id\" (unique identifier for the question), \"text\" (the question text), and \"options\" (an array of possible answers).",
+    "text_data": "Websites are digital platforms accessible through the internet that provide information, services, and resources. They are created using programming languages like HTML, CSS, and JavaScript and can be static or dynamic. Websites serve various purposes, such as e-commerce, education, entertainment, and communication. They play a crucial role in modern society, facilitating global connectivity and access to information."
+}
+
+{
+    "objects": [
+        {
+            "id": "q1",
+            "text": "What are websites?",
+            "options": ["Digital platforms accessible through the internet", "Physical locations for information exchange", "Online shopping carts"]
+        },
+        {
+            "id": "q2",
+            "text": "Which programming languages are used to create websites?",
+            "options": ["HTML, CSS, and JavaScript", "Python and Java", "C++ and Ruby"]
+        },
+        {
+            "id": "q3",
+            "text": "What are the two main types of websites?",
+            "options": ["Static and dynamic", "Interactive and non-interactive", "Personal and professional"]
+        },
+        {
+            "id": "q4",
+            "text": "What purposes do websites serve?",
+            "options": ["E-commerce, education, entertainment, and communication", "Transportation and agriculture", "Healthcare and construction"]
+        },
+        {
+            "id": "q5",
+            "text": "What role do websites play in modern society?",
+            "options": ["Facilitating global connectivity and access to information", "Limiting access to information", "Creating barriers to communication"]
+        },
+        {
+            "id": "q6",
+            "text": "How are websites accessed?",
+            "options": ["Through the internet", "Through physical locations", "Through telephone lines"]
+        },
+        {
+            "id": "q7",
+            "text": "What do websites provide?",
+            "options": ["Information, services, and resources", "Food and clothing", "Transportation services"]
+        }
+    ]
+}
+
+{
+    "prompt": "Create a JSON object with an \"objects\" array containing one object. The object should represent a fill-in-the-blank question and contain the following properties: \"id\" (unique identifier for the question), \"text\" (the question text with a blank space for the answer), and \"answer\" (the correct answer to fill in the blank).",
+    "text_data": "Food is essential for sustenance and nourishment, providing the body with energy and nutrients. It comes in various forms and flavors, reflecting diverse cultures and traditions. Beyond its nutritional value, food plays a significant role in social gatherings and celebrations, bringing people together. The way food is prepared and enjoyed varies widely, adding richness to human experiences. However, access to nutritious food remains a challenge for many, highlighting the importance of food security and sustainable food practices."
+}
+
+{
+    "objects": [
+        {
+            "id": "q1",
+            "text": "Food is essential for sustenance and nourishment, providing the body with energy and nutrients. It comes in various forms and flavors, reflecting diverse cultures and traditions. Beyond its nutritional value, food plays a significant role in social gatherings and celebrations, bringing people together. The way food is prepared and enjoyed varies widely, adding richness to human experiences. However, access to nutritious food remains a challenge for many, highlighting the importance of food security and sustainable ________ practices.",
+            "answer": "food"
+        }
+    ]
+}
+
+
+{
+    "prompt": "Create a JSON object with an \"objects\" array containing one object for 7 slides . The object should represent a fill-in-the-blank question and contain the following properties: \"id\" (unique identifier for the question), \"text\" (the question text with a blank space for the answer), and \"answer\" (the correct answer to fill in the blank).",
+    "text_data": "Food is essential for sustenance and nourishment, providing the body with energy and nutrients. It comes in various forms and flavors, reflecting diverse cultures and traditions. Beyond its nutritional value, food plays a significant role in social gatherings and celebrations, bringing people together. The way food is prepared and enjoyed varies widely, adding richness to human experiences. However, access to nutritious food remains a challenge for many, highlighting the importance of food security and sustainable food practices."
+}
+
+{
+    "objects": [
+        {
+            "id": "q1",
+            "text": "Food is essential for sustenance and nourishment, providing the body with energy and nutrients. It comes in various forms and flavors, reflecting diverse cultures and traditions. Beyond its nutritional value, food plays a significant role in social gatherings and celebrations, bringing people together. The way food is prepared and enjoyed varies widely, adding richness to human experiences. However, access to nutritious food remains a challenge for many, highlighting the importance of food security and sustainable ________ practices.",
+            "answer": "food"
+        },
+        {
+            "id": "q2",
+            "text": "In many cultures, food is not just a means of sustenance, but also a way to express ________ and celebrate special occasions.",
+            "answer": "culture"
+        },
+        {
+            "id": "q3",
+            "text": "The food industry has a significant impact on the environment, making it important to adopt ________ practices to reduce waste and pollution.",
+            "answer": "sustainable"
+        },
+        {
+            "id": "q4",
+            "text": "Food security is a global issue that requires ________ solutions to ensure everyone has access to safe and nutritious food.",
+            "answer": "collaborative"
+        },
+        {
+            "id": "q5",
+            "text": "Nutritious food is essential for maintaining ________ and preventing various health problems.",
+            "answer": "health"
+        },
+        {
+            "id": "q6",
+            "text": "The food industry is constantly evolving to meet changing consumer ________ and preferences.",
+            "answer": "demands"
+        },
+        {
+            "id": "q7",
+            "text": "Education and awareness are key to promoting healthy eating habits and reducing ________ related to food.",
+            "answer": "risks"
+        }
+    ]
+}
+
+{
+    "objects": [
+        {
+            "id": "q1",
+            "text": "Mobile phones have become an indispensable part of modern life, offering communication, entertainment, and convenience in a compact device. They enable instant communication through calls, texts, and social media, keeping people connected globally. Mobile phones also serve as multifunctional tools, providing access to the internet, navigation, photography, and numerous apps for various tasks. Their portability and versatility have revolutionized the way people work, socialize, and access information, making them an essential aspect of ________ life.",
+            "options": ["modern", "daily", "digital"]
+        },
+        {
+            "id": "q2",
+            "text": "Mobile phones enable instant communication through calls, texts, and social media, keeping people ________ globally.",
+            "options": ["connected", "informed", "entertained"]
+        },
+        {
+            "id": "q3",
+            "text": "Mobile phones serve as multifunctional tools, providing access to the internet, navigation, photography, and numerous ________ for various tasks.",
+            "options": ["apps", "features", "services"]
+        },
+        {
+            "id": "q4",
+            "text": "The portability and versatility of mobile phones have revolutionized the way people ________, socialize, and access information.",
+            "options": ["work", "communicate", "travel"]
+        },
+        {
+            "id": "q5",
+            "text": "Mobile phones offer communication, entertainment, and convenience in a compact device, making them an essential aspect of ________ life.",
+            "options": ["modern", "daily", "digital"]
+        },
+        {
+            "id": "q6",
+            "text": "Mobile phones provide access to the internet, navigation, photography, and numerous apps for various tasks, serving as multifunctional ________.",
+            "options": ["tools", "devices", "inventions"]
+        },
+        {
+            "id": "q7",
+            "text": "Mobile phones have revolutionized the way people work, socialize, and access information, making them an essential aspect of ________ life.",
+            "options": ["daily", "modern", "digital"]
+        }
+    ]
+}
+
+
+{
+    "prompt": "Create a JSON object with an \"objects\" array containing multiple objects. Each object should represent a question and contain the following properties: \"id\" (unique identifier for the question), \"text\" (the question text), and \"options\" (an array of possible answers).",
+    "text_data": "YouTube is a video-sharing platform that allows users to upload, share, and view videos. It has become one of the most popular websites globally, offering a wide range of content, from educational tutorials to entertainment and music videos. YouTube has transformed the way people consume media, providing a platform for creators to reach a vast audience and for users to discover diverse content. It has also become a lucrative platform for advertising and monetization, with many creators earning income from their videos. YouTube's impact on media and culture is profound, shaping trends and influencing the way people communicate and share information.."
+}
+
+{
+  "objects": [
+    {
+      "id": "question-1",
+      "text": "What is YouTube?",
+      "options": ["A video-sharing platform", "A social media platform", "A music streaming service"]
+    },
+    {
+      "id": "question-2",
+      "text": "What can users do on YouTube?",
+      "options": ["Upload videos", "Watch videos", "Both"]
+    },
+    {
+      "id": "question-3",
+      "text": "What type of content can be found on YouTube?",
+      "options": ["Educational tutorials", "Music videos", "Entertainment videos", "All of the above"]
+    },
+    {
+      "id": "question-4",
+      "text": "How has YouTube impacted media consumption?",
+      "options": ["Changed the way people consume media", "Increased media consumption", "No impact"]
+    }
+  ]
+}
