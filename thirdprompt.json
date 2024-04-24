@@ -1,0 +1,89 @@
+{
+    "prompt":  ''Create a JSON object with an "objects" array containing at 2 objects. Assign "id" to each object in the format "text-[object number]". For the 2nd object, set the "text" to "HELLO EVERYONE, LET 'S PLAY A GAME".  For the 2nd object, set "text" to "THEME : Nature" and replace the topic name(maximum 2 words and in capital letters) with the Nature',
+    "text_data": "Nature is the essence of the world around us, encompassing all living and non-living things. It provides us with beauty, inspiration, and essential ecosystem services. Protecting nature is crucial for our well-being and the health of the planet."
+}
+
+{
+    "objects": [
+        {
+            "id": "text-1",
+            "text": "HELLO EVERYONE, LET'S PLAY A GAME"
+        },
+        {
+            "id": "text-2",
+            "text": "THEME: NATURE"
+        }
+    ]
+}
+
+{
+    "prompt": 'Create a JSON object with an "objects" array containing at 2 objects. Assign "id" to each object in the format "text-[object number]". For the 1st object, set the "text" to "QUESTION 1". For the 2nd object, set "text" to contain a question (around 7 words) for a quiz related to' ,
+    "text_data": "Nature is the essence of the world around us, encompassing all living and non-living things. It provides us with beauty, inspiration, and essential ecosystem services. Protecting nature is crucial for our well-being and the health of the planet."
+}
+
+{
+    "objects": [
+        {
+            "id": "text-1",
+            "text": "QUESTION 1"
+        },
+        {
+            "id": "text-2",
+            "text": "What is the essence of the world around us?"
+        }
+    ]
+}
+
+{
+    "prompt": 'Create a JSON object with an "objects" array containing at 2 objects. Assign "id" to each object in the format "text-[object number]". For the 1st object, set the "text" to "THE ANSWER IS..". For the 2nd object, set "text" to contain a answer for the question generated earlier on the topic' ,
+    "text_data": "Nature is the essence of the world around us, encompassing all living and non-living things. It provides us with beauty, inspiration, and essential ecosystem services. Protecting nature is crucial for our well-being and the health of the planet."
+}
+
+
+{
+    "objects": [
+        {
+            "id": "text-1",
+            "text": "THE ANSWER IS.."
+        },
+        {
+            "id": "text-2",
+            "text": "The essence of the world around us is nature, which encompasses all living and non-living things, providing beauty, inspiration, and essential ecosystem services. Protecting nature is crucial for our well-being and the health of the planet."
+        }
+    ]
+}
+
+{
+    "prompt":'Create a JSON object with an "objects" array containing at 6 objects. Assign "id" to each object in the format "text-[object number]". For the 1st object, set the "text" to "QUESTION 2".  For the 2nd object, set "text" to contain a question (around 7 words) for a quiz related to topic given. For the 3rd,4th,5th and 6th will contain options for the question prefixed with "letter from A. to D.". The topic should be  Water Cycle' ,
+    "text_data": "The water cycle, also known as the hydrological cycle, describes the continuous movement of water on, above, and below the surface of the Earth. It involves processes such as evaporation, condensation, precipitation, and runoff, all of which play a crucial role in maintaining the planet's water supply. Water evaporates from oceans, lakes, and rivers, rises into the atmosphere, condenses into clouds, and falls back to the Earth as precipitation. This water then flows into rivers and oceans, where the cycle begins again. The water cycle is a vital natural process that helps regulate the Earth's climate and provides freshwater for plants, animals, and human activities."
+}
+
+{
+    "objects": [
+        {
+            "id": "text-1",
+            "text": "QUESTION 2"
+        },
+        {
+            "id": "text-2",
+            "text": "What is the continuous movement of water on, above, and below the surface of the Earth called?"
+        },
+        {
+            "id": "text-3",
+            "text": "A. Evaporation"
+        },
+        {
+            "id": "text-4",
+            "text": "B. Condensation"
+        },
+        {
+            "id": "text-5",
+            "text": "C. Precipitation"
+        },
+        {
+            "id": "text-6",
+            "text": "D. Runoff"
+        }
+    ]
+}
+
